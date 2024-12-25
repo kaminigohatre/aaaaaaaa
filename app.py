@@ -7,6 +7,6 @@ response = client.run_instances(
     ImageId='ami-0614680123427b75e',
     InstanceType='t2.micro',
     KeyName='8DEC',
-    MaxCount=2,
-    MinCount=2
+    MaxCount=3,
+    MinCount=3
 )
